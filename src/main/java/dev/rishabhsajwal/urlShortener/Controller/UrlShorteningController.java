@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDateTime;
 
+@CrossOrigin(origins = "https://url-shortener-frontend-react.herokuapp.com/")
 @RestController
 public class UrlShorteningController {
 
